@@ -1,0 +1,98 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f8f9fa;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    font-family: sans-serif;
+}
+.con{
+    text-align: center;
+    margin-top: 100px;
+}
+.logo img{
+    width: 272px;
+    height: 92px;
+}
+.search{
+    margin: 20px 0;
+}
+.search input{
+    width: 640px;
+    height: 45px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid rgb(216, 208, 208);
+}
+.btn button{
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+
+
+}
+button:hover{
+    border: 1px solid rgb(216, 208, 208);
+}
+input:hover{
+    box-shadow: 1px 1px 5px gray;
+}
+nav{
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+nav a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav button{
+    border: 1px solid transparent;
+    margin-left: 15px;
+    background-color: #1D64D4;
+    height: 41px;
+    width: 80px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+p{
+    margin-top: 199px;
+    padding: 5px 30px;
+    font-size: small;
+}
+
+
+span a{
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+    margin: 15px;
+    font-weight: 100;
+    font-size: small;
+    display: inline-block;
+}
+.l{
+    margin-left: 10px;
+}
+
+.r{
+    margin-left: 50%;
+
+}
